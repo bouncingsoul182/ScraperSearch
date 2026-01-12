@@ -1,0 +1,5 @@
+
+> scrapersearch@1.0.0 start
+> node server.js
+
+Local search running at http://localhost:3000

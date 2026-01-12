@@ -1,0 +1,27 @@
+{
+  "name": "scrapersearch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "build:css": "tailwindcss -i public/input.css -o public/styles.css",
+    "import": "node scripts/import_excel.js",
+    "start": "node server.js",
+    "start:lan": "cross-env HOST=0.0.0.0 node server.js",
+    "watch:css": "tailwindcss -i public/input.css -o public/styles.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "better-sqlite3": "^12.5.0",
+    "cross-env": "^7.0.3",
+    "express": "^5.2.1",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.1.18",
+    "tailwindcss": "^4.1.18"
+  }
+}
