@@ -52,7 +52,7 @@ node server.js
 1) Create a task that runs at startup with highest privileges.
 2) Action: `Start a program`
 3) Program/script: `scripts\\windows\\start-lan.cmd`
-4) Start in: `C:\\Users\\Administrator.ACILOCAL\\Documents\\ScraperSearch`
+4) Start in: `C:\\Users\\User\\Documents\\ScraperSearch`
 5) Check `Run whether user is logged on or not` and `Run with highest privileges`.
 
 This uses only built-in Windows tools and will start the app on boot.
