@@ -59,8 +59,8 @@ function formatDateUk(value) {
 
   const slashMatch = trimmed.match(/^(\d{1,2})\/(\d{1,2})\/(\d{2,4})$/);
   if (slashMatch) {
-    const day = slashMatch[1].padStart(2, '0');
-    const month = slashMatch[2].padStart(2, '0');
+    const month = slashMatch[1].padStart(2, '0');
+    const day = slashMatch[2].padStart(2, '0');
     const year = slashMatch[3].length === 2
       ? Number(slashMatch[3]) >= 70
         ? `19${slashMatch[3]}`

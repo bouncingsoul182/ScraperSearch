@@ -1,9 +1,11 @@
 Recent work summary
-- User reverted to port 3000 after port 80 access issues; next steps are LAN reachability checks (HOST binding, firewall, DNS).
+- Initialised a new git repository, committed the project, added GitHub remote, and pushed main to https://github.com/bouncingsoul182/ScraperSearch.git.
 
 Recent user prompts
-- "it wasnt working at all on 80 so i've switched back to port 3000"
+- "can you upload this working folder to a new repo in my githuib please"
+- "https://github.com/bouncingsoul182/ScraperSearch.git i may need to sign in but once ive done that will you remember that across my computer"
+- "i also t you to ignore the actualk DB file please"
+- "yes"
 
 Notes
-- Ensure HOST=0.0.0.0 and allow inbound TCP 3000 on Windows firewall.
-
+- `.gitignore` already excludes `data/records.db`.
