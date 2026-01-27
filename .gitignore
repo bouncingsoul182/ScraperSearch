@@ -2,3 +2,7 @@ node_modules/
 data/records.db
 .DS_Store
 npm-debug.log*
+handoff.md
+.claude/
+server.log
+*.xlsx
